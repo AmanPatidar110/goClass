@@ -1,0 +1,180 @@
+.Course {
+    border: 1px solid rgb(204, 193, 193);
+    
+    width: 100%;
+    overflow: hidden;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    position: relative;
+    cursor: pointer;
+}
+
+.Course .Assignment_Course {
+    position: absolute;
+    top: 0.5rem;
+    color: #C3C3C3;
+    left: 1rem;
+}
+
+.Course > .separator {
+    position: absolute;
+    height: 2.5rem;
+    width: 1px;
+    top: 2.4rem;
+    left: 1.2rem;
+    border: 1px solid #dfdfdf;
+    background-color: #dfdfdf;
+
+}
+
+.Course:hover {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.164);
+}
+
+.Course:hover  .Course_Right>svg {
+    opacity: 1;
+}
+
+
+.Course .Assignment_Mid {
+    padding: 0 1rem;
+    width: 95%;
+    height: 7rem;
+    /* border: 1px solid black; */
+}
+
+.Course .Assignment_Mid  p {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: rgb(82, 82, 82);
+    margin: 0.2rem 0;
+}
+
+.Course.Assignment_Mid  h3{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin: 0;
+}
+
+
+
+
+
+.Course .Assignment_Info_Strip {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 1.7rem;
+    left: 2rem;
+}
+
+.Course .Assignment_Info_Strip .Assignment_Status {
+    height: 1.5rem;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 0 1rem;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+
+.Course  .Assignment_Info_Strip .Enrolled {
+    color: tomato;
+    border: 1px solid tomato;
+}
+
+.Course  .Assignment_Info_Strip .Enroll_Now {
+    color: white;
+    background-color: tomato;
+    border: 1px solid tomato;
+}
+
+.Course  .Assignment_Info_Strip .Completed {
+    color: green;
+    border: 1px solid green;
+}
+
+.Course  .Assignment_Info_Strip .Assignment_Status:hover {    
+    box-shadow: 1px 1px 4px tomato;
+}
+.Course  .Assignment_Info_Strip .Completed:hover {
+    box-shadow: 1px 1px 4px green;
+}
+
+
+.Course .Assignment_Info_Strip .Assignment_Contributers{
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+}
+.Course  .Assignment_Info_Strip .Assignment_Contributers img{
+    height: 1.5rem;
+    width: 1.5rem;
+    margin: 0 0.2rem;
+    border:rgb(192, 180, 180) 1px solid;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.Course  .Assignment_Info_Strip  div{
+    font-size: 0.8;
+    color: #C3C3C3;
+    margin-left:  1rem;
+}
+
+
+.Course .Assignment_Stats, .Course .Assignment_Stats div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(82, 82, 82, 0.692);
+    font-size: 0.9rem;
+}
+
+.Course .Assignment_Stats div svg{
+    font-size: 1.2rem;
+    margin: 0.2rem;
+
+}
+
+
+
+.Course .Course_Stats div {
+    margin-left: 0.3rem;
+}
+
+.Course svg {
+    color: rgb(75, 75, 75);
+}
+
+.Course .Course_Right svg {
+    opacity: 0;
+    cursor: pointer;
+    font-size: 1.8rem;
+    margin-top: 0.2rem;
+    padding: 0.3rem;
+    border-radius: 50%;
+}
+
+.Course .Course_Right svg:hover {
+    background-color: rgba(73, 73, 73, 0.247);
+    
+}
+
+.Course .Course_Right {
+    position: absolute;
+    z-index: 100;
+    cursor:auto;
+    right: 0;
+    top: 0;
+    height: 100%;
+    padding: 0 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

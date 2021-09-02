@@ -1,0 +1,19 @@
+
+.EditProfile {
+    margin: 0 0 0 3.5rem;
+    width: 80%;
+}
+
+.EditProfile .Profile_details {
+    margin: 0.6rem 5rem;
+}
+
+
+.Profile_details form .MuiFormControl-root {
+    width: 51%;
+    margin: 1rem 0;
+}
+
+.Profile_details form fieldset.MuiFormControl-root {
+    margin-top: 1.6rem ;
+}

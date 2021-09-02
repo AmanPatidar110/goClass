@@ -1,0 +1,27 @@
+
+
+.FileUploader {
+   margin-left:  1rem;
+    position: relative;
+}
+
+.file-upload{
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.FileUploader  .upload_Button {
+    background-color: tomato;
+    color: white;
+   }
+   
+   .FileUploader    .upload_Button:hover {
+    background-color: white;
+    color: tomato;
+    border: 1px solid tomato;
+   }
+   

@@ -1,0 +1,38 @@
+.Courses {
+    padding: 3rem 3rem 0 3rem;
+}
+
+
+
+.Courses_Grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Courses .Courses_Toolbar {
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    padding: 0 2rem;
+    border-radius: 7px;
+    margin: 3rem auto;
+    height: 4rem;
+    border: 1px solid black;
+    align-items: center;
+    box-shadow: 2px 2px 6px 1px rgba(0, 0, 0, 0.153);
+}
+
+.Courses .Courses_Toolbar:hover {
+    box-shadow: 3px 3px 10px  rgba(0, 0, 0, 0.2);
+
+}
+
+
+.Courses .Courses_Toolbar .MuiBottomNavigationAction-root.Mui-selected {
+    color: black;
+}
+
+.Courses .Courses_Toolbar .MuiBottomNavigationAction-root:hover {
+    color: black;
+}

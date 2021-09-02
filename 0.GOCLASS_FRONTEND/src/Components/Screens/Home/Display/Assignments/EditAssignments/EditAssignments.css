@@ -1,0 +1,59 @@
+
+.EditAssignment > h3 {
+    text-align: center;
+    color: #1F1F1F;
+}
+
+.EditAssignment form .MuiFormControl-root {
+    width: 51%;
+    margin: 1.5rem 0;
+}
+.Courses_Grid  {
+    margin-top: 3rem;
+
+}
+.Courses_Grid > p {
+ margin: 0.5rem 0 2.5rem 0;
+ font-size: 0.8rem;
+ color: #C3C3C3;
+}
+
+.Courses_Grid > .upload_Button {
+ margin-top: 4rem;
+ background-color: tomato;
+ color: white;
+}
+
+.Courses_Grid > .upload_Button:hover {
+ background-color: white;
+ color: tomato;
+ border: 1px solid tomato;
+}
+
+
+.EditAssignment form {
+    margin-bottom: 2rem;
+}
+
+
+.EditAssignment .Courses_Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(77, 76, 76);
+}
+
+.EditAssignment .Courses_Header .Courses_Heading h1 {
+    border-bottom:2px solid rgb(77, 76, 76) ;
+    font-size: 2rem;
+}
+
+
+
+.EditAssignment .Courses_Header .NewCourse_Button:hover {
+    color: black;
+    border: 2px solid black;
+    background-color: white;
+    box-shadow:  2px 2px 5px 1px rgba(0, 0, 0, 0.205);
+}
+

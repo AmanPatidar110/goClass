@@ -1,0 +1,45 @@
+
+.EditCourse > h3 {
+    text-align: center;
+    color: #1F1F1F;
+}
+
+.EditCourse form .MuiFormControl-root {
+    width: 51%;
+    margin: 1.5rem 0;
+}
+.Courses_Grid  {
+    margin-top: 3rem;
+
+}
+.Courses_Grid > p {
+ margin-bottom: 1rem;
+}
+
+
+.EditCourse form {
+    margin-bottom: 2rem;
+}
+
+
+.EditCourse .Courses_Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(77, 76, 76);
+}
+
+.EditCourse .Courses_Header .Courses_Heading h1 {
+    border-bottom:2px solid rgb(77, 76, 76) ;
+    font-size: 2rem;
+}
+
+
+
+.EditCourse .Courses_Header .NewCourse_Button:hover {
+    color: black;
+    border: 2px solid black;
+    background-color: white;
+    box-shadow:  2px 2px 5px 1px rgba(0, 0, 0, 0.205);
+}
+

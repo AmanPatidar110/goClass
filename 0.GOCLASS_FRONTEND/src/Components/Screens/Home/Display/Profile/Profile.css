@@ -1,0 +1,92 @@
+.Profile {
+    padding: 3.5rem;
+    width: 100%;
+}
+
+.Profile_head {
+    color: #4D4C4C;
+    padding-bottom: 4px;
+    border-bottom: #4D4C4C solid 2px;
+    width: fit-content;
+}
+
+.Profile_section {
+    width: 100%;
+    padding: 3.5rem 0 0  3.5rem;
+    position: relative;
+    display: flex;
+}
+
+.Profile_image {
+    width: 7.5rem;
+    height: 7.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Profile_image > img {
+    height: 80%;
+    width: 80%;
+    border-radius: 50%;
+    border: 1px solid #C2C2C2;
+    box-shadow: 2px 4px 7px -1px rgba(0, 0, 0, 0.35);
+}
+
+.img_separator {
+    margin-left: 1.5rem;
+    height: 50%;
+    border: 1px solid #C2C2C2;
+    background-color: #C2C2C2;
+}
+
+
+.signup_cardLogo {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    background-color: #dadbd3;
+    margin: 4rem;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.file-upload{
+    position: absolute;
+    height: 10rem;
+    width: 10rem;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.signup_cardLogo:hover {
+    background-color: rgba(75, 75, 75, 0.7);
+}
+
+.signup_cardLogo:hover .uploader.MuiSvgIcon-root {
+    display: block;
+}
+
+.signup_cardLogo .personIcon.MuiSvgIcon-root  {
+    color: white;
+    height: 75%;
+    width: 75%;
+}
+
+.signup_cardLogo .profileImg {
+    height: 98%;
+    width: 98%;
+    border-radius: 50%;
+}
+
+.signup_cardLogo .uploader.MuiSvgIcon-root  {
+    position: absolute;
+    color: rgb(51, 51, 51);
+    bottom: 7px;
+    display: none;
+    cursor: pointer;
+}

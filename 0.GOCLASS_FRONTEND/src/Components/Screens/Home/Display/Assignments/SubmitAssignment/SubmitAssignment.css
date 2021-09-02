@@ -1,0 +1,69 @@
+.SubmitAssignment .card_body {
+    padding: 3rem 0;
+}
+
+.SubmitAssignment .Instructions {
+    margin: 3rem 0;
+}
+
+.SubmitAssignment .Instructions div p {
+    font-size: 0.8rem;
+    color: #C3C3C3;
+    margin-left: 1rem;
+}
+
+.SubmitAssignment .Status_Card {
+    border: 1px solid #C3C3C3;
+    border-radius: 10px;
+    width: 60%;
+    display: block;
+    overflow: hidden;
+    margin: 1rem auto 2rem auto;
+}
+
+.SubmitAssignment .Status_Card_Line {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 0;
+    cursor: pointer;
+    font-size: 0.9rem;
+    color: #464646;
+}
+.SubmitAssignment .Status_Card .Status_Card_Line:not(:last-child) {
+    border-bottom: 1px solid #C3C3C3;
+}
+
+.SubmitAssignment .Status_Card_Line:hover {
+    background-color: #C3C3C3;
+}
+
+.SubmitAssignment .Status_Card_Line p {
+    width: 50%;
+    
+}
+
+.SubmitAssignment .Submit_button {
+    height: 2rem;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 0 1.5rem;
+    font-size: 0.8rem;
+    cursor: pointer;
+    color: white;
+    background-color: tomato;
+    border: 1px solid tomato;
+    display: block;
+    margin: 4rem auto;
+}
+
+.SubmitAssignment .Submit_button:hover {    
+    box-shadow: 1px 1px 4px tomato;
+}
+
+.SubmitAssignment .Submit_button:disabled {
+    background-color:#C3C3C3 ;
+    cursor: not-allowed;
+    border: none;
+}
+

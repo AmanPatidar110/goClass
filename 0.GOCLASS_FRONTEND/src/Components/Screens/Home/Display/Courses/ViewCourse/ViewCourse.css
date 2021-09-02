@@ -1,0 +1,39 @@
+.Courses_Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(77, 76, 76);
+}
+
+ .Courses_Header .Courses_Heading h1 {
+    border-bottom:2px solid rgb(77, 76, 76) ;
+}
+
+
+.Courses_Header .NewCourse_Button {
+    width: 7.5rem;
+    height: 2rem;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.274);
+    border-radius: 3px;
+    background-color: #1F1F1F;
+    color: white;
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 500ms ease-in-out;
+    position: relative;
+    top: 0.3rem;
+    /* padding: 0rem 0.5rem; */
+}
+
+.Courses_Header .NewCourse_Button:hover {
+    color: black;
+    border: 2px solid black;
+    background-color: white;
+    box-shadow:  2px 2px 5px 1px rgba(0, 0, 0, 0.205);
+}
+

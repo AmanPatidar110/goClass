@@ -1,0 +1,36 @@
+.Course.SubmissionList p{
+    margin: 0 1.5rem;
+}
+
+.Course.SubmissionList .MuiOutlinedInput-root {
+    /* height: 3rem;
+    width: 6rem; */
+}
+
+.submission_list_right svg {
+    cursor: pointer;
+    font-size: 2.5rem;
+    margin-top: 0.2rem;
+    padding: 0.3rem;
+    border-radius: 50%;
+    color: tomato;
+    opacity: 0;
+}
+
+.submission_list_right svg:hover {
+    background-color: rgba(102, 102, 102, 0.199);
+}
+
+.Course:hover  .submission_list_right>svg {
+    opacity: 1;
+}
+
+.Course.SubmissionList a {
+    color: tomato;
+    font-size: 0.8rem;
+}
+
+.Course.SubmissionList .weight {
+    width: 7rem;
+    margin-right: 2rem;
+}

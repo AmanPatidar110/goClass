@@ -1,0 +1,181 @@
+.CourseDetails {
+    margin-top: 3rem;
+    width: 100%;
+}
+
+.CourseDetails_Container {
+    display: flex;
+    height: 10.5rem;
+    align-items: center;
+    width: 100%;
+    border: 1px solid rgb(161, 161, 161);
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+}
+
+.CourseDetails_Container:hover {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.164);
+}
+
+.CourseDetails_Container img {
+    height: 80%;
+    width: 9rem;
+    margin-left: 1rem;
+}
+
+.CourseDetails_mid {
+    margin-left: 1rem;
+    padding: 2rem 0;
+    height: 100%;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.CourseDetails_mid h1 {
+    color: #1F1F1F;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.CourseDetails_mid p {
+    font-size: 0.9rem;
+    color: #4D4C4C;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.CourseDetails_Poster {
+    margin: 3rem 0;
+    background-image: linear-gradient(120deg, #f6d365, #fda0a5);
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.CourseDetails_Tutor  {
+    margin-top: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: end;
+}
+.CourseDetails_Tutor img {
+    width: 2rem;
+    height: 2rem;
+    margin: 0 0.5rem;
+    border-radius: 50%;
+}
+
+.CourseDetails_Tutor .MuiSvgIcon-root {
+    width: 2rem;
+    height: 2rem;
+    border: 1px solid rgb(161, 161, 161);
+    margin: 0 0.5rem;
+    border-radius: 50%;
+    color: #C3C3C3;
+}
+.CourseDetails_Action {
+    display: flex;
+    margin-top: 3rem;
+    justify-content: center;
+
+}
+
+.CourseDetails_Action div{
+    width: fit-content;
+}
+
+.CourseDetails_Action p{
+    font-size: 0.7rem;
+    color: #4D4C4C;
+    margin-top: 0.2rem;
+    width: 100%;
+    text-align: center;
+}
+
+.CourseDetails_Button {
+    height: 2.5rem;
+    margin-top: 2rem;
+    border-radius: 10px;
+    width: 8rem;
+    padding: 0 1rem;
+    font-size: 0.9rem;
+    cursor: pointer;
+    color: tomato;
+    background-color: white;
+    border: 1px solid tomato;
+}
+
+.CourseDetails_Button .Enrolled {
+    color: tomato;
+    border: 1px solid tomato;
+}
+
+.CourseDetails_Button.Enroll_Now {
+    color: white;
+    background-color: tomato;
+    border: 1px solid tomato;
+}
+
+.CourseDetails_Button .Completed {
+    color: green;
+    border: 1px solid green;
+}
+
+.CourseDetails_Button:hover {    
+    box-shadow: 1px 1px 4px tomato;
+}
+.CourseDetails_Button .Completed:hover {
+    box-shadow: 1px 1px 4px green;
+}
+
+.CourseDetails_Tabs {
+    margin-top: 3rem;
+}
+
+.CourseDetails_Tabs .MuiTab-textColorSecondary.Mui-selected {
+color: tomato;
+}
+
+.CourseDetails_Tabs .PrivateTabIndicator-colorSecondary-3 {
+    background-color: tomato;
+    
+}
+
+
+
+.CourseDetails_Container .Course_Right svg {
+    opacity: 0;
+    cursor: pointer;
+    font-size: 1.8rem;
+    margin-top: 0.2rem;
+    padding: 0.3rem;
+    border-radius: 50%;
+    color: #646464;
+}
+
+.CourseDetails_Container .Course_Right svg:hover {
+    background-color: rgba(73, 73, 73, 0.247);
+}
+
+.CourseDetails_Container .Course_Right {
+    position: absolute;
+    z-index: 100;
+    cursor:auto;
+    right: 0;
+    top: 0;
+    height: 100%;
+    padding: 0 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.CourseDetails_Container:hover  .Course_Right>svg {
+    opacity: 1;
+}

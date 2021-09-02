@@ -1,0 +1,30 @@
+.Auth {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Auth_Card {
+    width: 60rem;
+    height: 35rem;
+    box-shadow: 3px 3px 20px 3px rgba(15, 15, 15, 0.26);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.Auth_Card .Auth_Card_Img {
+    background-color: #2b2727d5;
+    /* background-color: rgba(78, 78, 78, 0.911); */
+    width: 44%;
+    height: 100%;
+}
+
+.Auth_Card .Auth_Card_Img img {
+    width: 80%;
+    height: 100%;
+}

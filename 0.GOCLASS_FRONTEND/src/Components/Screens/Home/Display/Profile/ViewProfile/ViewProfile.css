@@ -1,0 +1,47 @@
+
+
+.Profile_edit_btn {
+    background-color: #1F1F1F;
+    border-radius: 4px;
+    padding: 0.2rem 0.5rem;
+    outline: none;
+    border: none;
+    color: whitesmoke;
+    position: absolute;
+    top: 4rem;
+    right: 10rem;
+    width: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.Profile_edit_btn:hover {
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.35);
+}
+
+.Profile_edit_btn span {
+    margin-left: 0.6rem;
+}
+
+
+.Profile_edit_btn .MuiSvgIcon-root {
+    height: 1rem;
+    margin-right: 0.4rem;
+}
+
+
+
+.Profile_details_name {
+    position: relative;
+    left: -1.5rem;
+}
+
+.Profile_details h3, .Profile_details p {
+    margin: 1rem 0;
+}
+
+.ViewProfile .Profile_details {
+    margin: 2rem 5rem;
+}
